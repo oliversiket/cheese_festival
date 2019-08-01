@@ -74,10 +74,18 @@
       line-height: 2em; }
 
 .navbar {
-  position: fixed !important; }
+  background-color: grey !important;
+  opacity: 0.9; }
 
-.nav-link {
-  color: red !important; }
+a.navbar-brand.d-none.d-lg-block {
+  color: darkorange; }
+
+div.dropdown-menu.show {
+  background-color: grey;
+  opacity: 0.9; }
+
+a.dropdown-item {
+  color: darkorange; }
 
 #landing {
   display: flex;
@@ -107,21 +115,5 @@
   max-width: 70em;
   margin: 0 auto; }
 
-<<<<<<< HEAD
-.navbar {
-  background-color: grey !important;
-  opacity: 0.9; }
-
-a.navbar-brand.d-none.d-lg-block {
-  color: darkorange; }
-
-div.dropdown-menu.show {
-  background-color: grey;
-  opacity: 0.9; }
-
-a.dropdown-item {
-  color: darkorange; }
-=======
 .featurette-image {
   width: 50%; }
->>>>>>> development
