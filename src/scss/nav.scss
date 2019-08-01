@@ -1,0 +1,21 @@
+.navbar{
+	background-color: grey !important;
+	opacity: 0.9 !important;
+}
+
+a.navbar-brand.d-none.d-lg-block{
+	color: darkorange;
+}
+a.navbar-brand.d-lg-none{
+	color: darkorange;
+}
+
+div.dropdown-menu.show{
+	background-color: grey;
+	opacity: 0.9;
+}
+
+a.dropdown-item{
+	color: darkorange;
+}
+

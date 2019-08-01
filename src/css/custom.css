@@ -89,9 +89,12 @@
 <<<<<<< HEAD
 .navbar {
   background-color: grey !important;
-  opacity: 0.9; }
+  opacity: 0.9 !important; }
 
 a.navbar-brand.d-none.d-lg-block {
+  color: darkorange; }
+
+a.navbar-brand.d-lg-none {
   color: darkorange; }
 
 div.dropdown-menu.show {
