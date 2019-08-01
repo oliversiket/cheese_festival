@@ -30,7 +30,15 @@
   margin: 0 auto; }
 
 .navbar {
-  position: fixed !important; }
+  background-color: grey !important;
+  opacity: 0.9; }
 
-.nav-link {
-  color: red !important; }
+a.navbar-brand.d-none.d-lg-block {
+  color: darkorange; }
+
+div.dropdown-menu.show {
+  background-color: grey;
+  opacity: 0.9; }
+
+a.dropdown-item {
+  color: darkorange; }
