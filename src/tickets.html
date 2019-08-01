@@ -18,41 +18,45 @@
         <!-------- HEADER  -------->
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                </div>
-        </nav>
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+      <!--  Show this only on mobile to medium screens  -->
+      <a class="navbar-brand d-lg-none" href="index.html">Cheese Festival</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--  Use flexbox utility classes to change how the child elements are justified  -->
+      <div class="collapse navbar-collapse justify-content-between" id="navbarToggle">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Info
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="directions.html">Directions</a>
+              <a class="dropdown-item" href="contact.html">Contact</a>
+              <a class="dropdown-item" href="faq.html">FAQs</a>
+            </div>
+          </li>
+        </ul>
+        <!--   Show this only lg screens and up   -->
+        <a class="navbar-brand d-none d-lg-block" href="index.html">Cheese Festival</a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="whatson.html">WhatsOn<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tickets.html">Tickets</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     </header>
 
             <!------ Main section starts here ------>
@@ -78,49 +82,50 @@
   <div class="row">
     <article class="card fl-left">
       <section class="date">
-        <time datetime="23th feb">
-          <span>23</span><span>feb</span>
+        <time datetime="03 Aug">
+          <span>03</span><span>aug</span>
         </time>
       </section>
       <section class="card-cont">
-        <small>dj khaled</small>
-        <h3>live in sydney</h3>
+        <small>Cheese Festival</small>
+        <h3>Bristol</h3>
         <div class="even-date">
          <i class="fa fa-calendar"></i>
          <time>
-           <span>wednesday 28 december 2014</span>
-           <span>08:55pm to 12:00 am</span>
+           <span>Saturday 03 august 2019</span>
+           <span>010:00am to 17:00 pm</span>
          </time>
         </div>
         <div class="even-info">
           <i class="fa fa-map-marker"></i>
           <p>
-            nexen square for people australia, sydney
+            come see all the cheese!
           </p>
         </div>
         <a href="#">tickets</a>
       </section>
     </article>
+
     <article class="card fl-left">
       <section class="date">
-        <time datetime="23th feb">
-          <span>23</span><span>feb</span>
+        <time datetime="03 August">
+          <span>03</span><span>Aug</span>
         </time>
       </section>
       <section class="card-cont">
-        <small>dj khaled</small>
-        <h3>corner obsest program</h3>
+        <small>Cheese Fest</small>
+        <h3>Bristol</h3>
         <div class="even-date">
          <i class="fa fa-calendar"></i>
          <time>
-           <span>wednesday 28 december 2014</span>
-           <span>08:55pm to 12:00 am</span>
+           <span>Saturday 03 august 2019</span>
+           <span>010:00am to 17:00 pm</span>
          </time>
         </div>
         <div class="even-info">
           <i class="fa fa-map-marker"></i>
           <p>
-            nexen square for people australia, sydney
+           Come get your cheese!
           </p>
         </div>
         <a href="#">tickets</a>
@@ -128,56 +133,6 @@
     </article>
   </div>
   <div class="row">
-    <article class="card fl-left">
-      <section class="date">
-        <time datetime="23th feb">
-          <span>23</span><span>feb</span>
-        </time>
-      </section>
-      <section class="card-cont">
-        <small>dj khaled</small>
-        <h3>music kaboom festivel</h3>
-        <div class="even-date">
-         <i class="fa fa-calendar"></i>
-         <time>
-           <span>wednesday 28 december 2014</span>
-           <span>08:55pm to 12:00 am</span>
-         </time>
-        </div>
-        <div class="even-info">
-          <i class="fa fa-map-marker"></i>
-          <p>
-            nexen square for people australia, sydney
-          </p>
-        </div>
-        <a href="#">booked</a>
-      </section>
-    </article>
-    <article class="card fl-left">
-      <section class="date">
-        <time datetime="23th feb">
-          <span>23</span><span>feb</span>
-        </time>
-      </section>
-      <section class="card-cont">
-        <small>dj khaled</small>
-        <h3>hello dubai festivel</h3>
-        <div class="even-date">
-         <i class="fa fa-calendar"></i>
-         <time>
-           <span>wednesday 28 december 2014</span>
-           <span>08:55pm to 12:00 am</span>
-         </time>
-        </div>
-        <div class="even-info">
-          <i class="fa fa-map-marker"></i>
-          <p>
-            nexen square for people australia, sydney
-          </p>
-        </div>
-        <a href="#">cancel</a>
-      </section>
-    </article>
   </div>
 </div>
 
@@ -228,11 +183,8 @@
             </div>
         
             <hr class="">
-        
+    
         </section>
-
-
-
 
     </main>
 
