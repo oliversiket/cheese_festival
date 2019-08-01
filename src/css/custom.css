@@ -30,7 +30,7 @@
   margin: 0 auto; }
 
 .navbar {
-  position: fixed; }
+  position: fixed !important; }
 
 .nav-link {
-  color: red; }
+  color: red !important; }
