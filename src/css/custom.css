@@ -1,3 +1,6 @@
+.form {
+  text-align: center; }
+
 #landing {
   display: flex;
   align-content: center;
