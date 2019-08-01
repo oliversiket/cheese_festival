@@ -29,6 +29,7 @@
   max-width: 70em;
   margin: 0 auto; }
 
+<<<<<<< HEAD
 #landing {
   display: flex;
   align-content: center;
@@ -59,3 +60,10 @@
 .gallery {
   max-width: 70em;
   margin: 0 auto; }
+=======
+.navbar {
+  position: fixed !important; }
+
+.nav-link {
+  color: red !important; }
+>>>>>>> a2486734fe3acae8a1e11edc1d84a79610085aa6
