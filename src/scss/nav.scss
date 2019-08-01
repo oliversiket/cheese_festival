@@ -1,8 +1,15 @@
 .navbar{
-	background-color: grey !important;
-	opacity: 0.9 !important;
+	background-color: rgba(169,169,169, 0.5) !important;
+    opacity: 0.9 !important;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
 }
-
+#logo{
+    font-size: 1.5em;
+}
+header{
+    margin: 0px;
+}
 a.navbar-brand.d-none.d-lg-block{
 	color: darkorange;
 }
