@@ -1,18 +1,26 @@
-#landing{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    max-width: 100%;
+#inside{
+    margin: 0px;
     width: 100%;
-    height: 100vh;  
-    background: url('../images/cheesebg.jpg') no-repeat center center fixed;
-    background-size: cover;
     text-align: center;
-    margin-left: 0px;
+    max-width: 100%;
+    height: 100%;
+    align-items: center;
 }
-#landing h1{
+#main{
+    margin-left: 40px;
+    height: 100%;
+}
+.landing{
+    position: relative;
+    color: #FFFAFA;
+    height: 100vh;
+    background: url('../images/cheesebg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.landing h1{
     width: 100%;
     color: "azure";
     font-family: 'Indie Flower', cursive;
@@ -20,7 +28,7 @@
     font-weight: 600;
     letter-spacing: 7px;
 }
-#landing h3{
+.landing h3{
     font-family: 'Quicksand', cursive;
     color: yellow;
     font-size: 3em;
@@ -44,8 +52,8 @@
     }
 }
 .divider{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 #camp{
     display: flex;
@@ -76,6 +84,4 @@
             line-height: 2em;
         }
     }
-
-
 }
