@@ -15,9 +15,6 @@
     text-align: center;
     margin-left: 0px;
 }
-.landingpage .container{
-    // max-width: 100%;
-}
 #landing h1{
     width: 100%;
     color: "azure";
@@ -27,13 +24,31 @@
     letter-spacing: 7px;
 }
 #landing h3{
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', cursive;
     color: yellow;
     font-size: 3em;
 }
 .gallery{
-    max-width: 70em;
+    max-width: 75em;
     margin: 0 auto;
+}
+.img-responsive{
+    border-radius: 50px;
+}
+.adtext{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span{
+        font-size: 0.6em;
+
+    }
+}
+.divider{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #camp{
     display: flex;
@@ -51,8 +66,17 @@
         margin-left: 30px;
     }
     .camptext{
+        font-family: 'Quicksand', sans-serif;
+
         h3{
             font-size: 3em;
+            letter-spacing: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        p{
+            text-align: justify;
+            line-height: 2em;
         }
     }
 
