@@ -19,10 +19,16 @@
   color: #FFFAFA;
   height: 100vh;
   background: url("../images/cheesebg.jpg") no-repeat center center fixed;
+<<<<<<< HEAD
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+=======
+  background-size: cover;
+  text-align: center;
+  margin-left: 0px; }
+>>>>>>> whatson-branch
 
 .landing h1 {
   width: 100%;
@@ -83,6 +89,7 @@
       line-height: 2em; }
 
 .navbar {
+<<<<<<< HEAD
   background-color: rgba(169, 169, 169, 0.5) !important;
   opacity: 0.9 !important;
   font-family: 'Indie Flower', cursive;
@@ -93,9 +100,21 @@
 
 header {
   margin: 0px; }
+=======
+  background-color: grey !important;
+  opacity: 0.9 !important;
+  font-family: 'Indie Flower', cursive;
+  font-size: 24px; }
+>>>>>>> whatson-branch
 
 a.navbar-brand.d-none.d-lg-block {
-  color: darkorange; }
+  color: darkorange;
+  font-size: 32px;
+  font-weight: bold; }
+
+a.navbar-brand.d-lg-none {
+  color: darkorange;
+  font-size: 32px; }
 
 a.navbar-brand.d-lg-none {
   color: darkorange; }
