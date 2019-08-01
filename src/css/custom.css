@@ -28,3 +28,9 @@
 .gallery {
   max-width: 70em;
   margin: 0 auto; }
+
+.navbar {
+  position: fixed; }
+
+.nav-link {
+  color: red; }
