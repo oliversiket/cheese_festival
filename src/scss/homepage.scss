@@ -1,24 +1,26 @@
-#landing{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    max-width: 100%;
+#inside{
+    margin: 0px;
     width: 100%;
-    height: 100vh;  
+    text-align: center;
+    max-width: 100%;
+    height: 100%;
+    align-items: center;
+}
+#main{
+    margin-left: 40px;
+    height: 100%;
+}
+.landing{
+    position: relative;
+    color: #FFFAFA;
+    height: 100vh;
     background: url('../images/cheesebg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-align: center;
-    margin-left: 0px;
 }
-.landingpage .container{
-    // max-width: 100%;
-}
-#landing h1{
+.landing h1{
     width: 100%;
     color: "azure";
     font-family: 'Indie Flower', cursive;
@@ -26,14 +28,32 @@
     font-weight: 600;
     letter-spacing: 7px;
 }
-#landing h3{
-    font-family: 'Indie Flower', cursive;
+.landing h3{
+    font-family: 'Quicksand', cursive;
     color: yellow;
     font-size: 3em;
 }
 .gallery{
-    max-width: 70em;
+    max-width: 75em;
     margin: 0 auto;
+}
+.img-responsive{
+    border-radius: 50px;
+}
+.adtext{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    span{
+        font-size: 0.6em;
+
+    }
+}
+.divider{
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 #camp{
     display: flex;
@@ -51,10 +71,17 @@
         margin-left: 30px;
     }
     .camptext{
+        font-family: 'Quicksand', sans-serif;
+
         h3{
             font-size: 3em;
+            letter-spacing: 5px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        p{
+            text-align: justify;
+            line-height: 2em;
         }
     }
-
-
 }
