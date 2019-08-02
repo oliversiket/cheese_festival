@@ -6,7 +6,7 @@ let sass = require('gulp-sass');
 let concat = require('gulp-concat');
 let uglify = require('gulp-uglify-es').default;
 
-gulp.task('sass', function () {
+gulp.task('createbootstrapsass', function () {
     var stream = gulp.src('node_modules/bootstrap/scss/bootstrap.scss')
         .pipe(sass())
         .pipe(rename('styles.css'))
@@ -14,7 +14,7 @@ gulp.task('sass', function () {
     return stream;
 });
 
-gulp.task('sass2', function () {
+gulp.task('customsassfile', function () {
     var stream = gulp.src('src/scss/all.scss')
         .pipe(sass())
         .pipe(rename('custom.css'))
@@ -30,11 +30,17 @@ gulp.task('minify-css', () => {
       .pipe(gulp.dest('dist/css/'));
   });
   
-gulp.task('styles', gulp.series('sass2', 'minify-css'));
+gulp.task('styles', gulp.series('customsassfile', 'minify-css'));
 
 gulp.task('watch', function () {
 	return gulp.watch('src/scss/*.scss', gulp.series('styles'));
 });
+
+gulp.task('htmlmin', function () {
+    return gulp.src('src/*.html')
+      .pipe(htmlmin({ collapseWhitespace: true }))
+      .pipe(gulp.dest('dist/'));
+  });
 
 gulp.task('jsmini', function(){
     return gulp.src(['node_modules/jquery/dist/jquery.slim.js', 'node_modules/bootstrap/dist/js/bootstrap.bundle.js'])
